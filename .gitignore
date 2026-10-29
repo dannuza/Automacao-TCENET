@@ -1,0 +1,60 @@
+
+# ==============================
+# DADOS SENSÍVEIS E LOCAIS
+# ==============================
+
+# Planilhas e dados
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*senha*
+*Senha*
+*credencial*
+*Credenciais*
+*token*
+*secret*
+
+# Documentos e dados pessoais
+*.pdf
+*cpf*
+*CPF*
+
+# Arquivos temporários e logs
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Ferramentas de desenvolvimento
+.vscode/
+.idea/
+
+# Executáveis e builds
+build/
+dist/
+dist-*/
+*.exe
+*.spec
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
